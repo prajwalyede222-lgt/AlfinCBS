@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CBS Login Suite">
+  
+  <test name="Login Test1">
+    <classes>
+      <class name="Testing.CustomerCreationTest"/>
+    </classes>
+  </test>
+</suite>
+
+
+

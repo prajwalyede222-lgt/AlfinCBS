@@ -1,0 +1,6 @@
+#encoding=UTF-8
+#version=1
+com.beust.jcommander.source,1.83.0,plugins/com.beust.jcommander.source_1.83.0.jar,-1,false
+org.testng.source,7.11.0.r202503091654,plugins/org.testng.source_7.11.0.r202503091654.jar,-1,false
+org.webjars.jquery.source,3.7.1,plugins/org.webjars.jquery.source_3.7.1.jar,-1,false
+org.yaml.snakeyaml.source,2.2.0,plugins/org.yaml.snakeyaml.source_2.2.0.jar,-1,false
