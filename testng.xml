@@ -1,12 +1,40 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="CBS Login Suite">
-  
-  <test name="Login Test1">
-    <classes>
-      <class name="Testing.CustomerCreationTest"/>
-    </classes>
-  </test>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CBS Test Suite" parallel="false">
+
+    <!-- 🔹 Login Test -->
+    <test name="Login Test">
+        <classes>
+            <class name="Testing.LoginPageCBS"/>
+        </classes>
+    </test>
+
+    <!-- 🔹 Customer Creation -->
+    <test name="Customer Creation Test">
+        <classes>
+            <class name="Testing.CustomerCreationTest"/>
+        </classes>
+    </test>
+
+    <!-- 🔹 Customer Agent Creation -->
+    <test name="Customer Agent Creation Test">
+        <classes>
+            <class name="Testing.CustAgentCreation"/>
+        </classes>
+    </test>
+
+    <!-- 🔹 Saving Account -->
+    <test name="Saving Account Test">
+        <classes>
+            <class name="Testing.Saving_Account"/>
+        </classes>
+    </test>
+
+    <!-- 🔹 Admin Day Start -->
+    <test name="Admin Day Start Test">
+        <classes>
+            <class name="Testing.CbsAdminDayStart1"/>
+        </classes>
+    </test>
+
 </suite>
-
-
-
