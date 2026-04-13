@@ -60,4 +60,11 @@ public class Saving_Account {
         savingAccount.clickAccountTransaction();
         savingAccount.searchByCustomerId(customerId);
     }
+    
+   
+    @Test
+    public void newtest() {
+    	System.out.println("Hello words");;
+    	
+    }
 }
